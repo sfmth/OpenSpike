@@ -24,14 +24,9 @@ If you find OpenSpike useful in your work, please cite the following source:
 </p>
 
 ## OpenSpike Layout
+Design area 3mm × 3mm (9 mm<sup>2</sup>). 2KB 1RW-1R 32x512 SRAM Layout.
 <p align="center" float="center">
   <img src="docs/chip.jpg"height="200" />
-  <p align = "left"> 
-  Design area 3mm × 3mm (9 mm<sup>2</sup>)
-  </p>
   <img src="docs/sram-2k.jpg"  height="200" /> 
-  <p align = "right"> 
-  2KB 1RW-1R 32x512 SRAM Layout
-  </p>
 </p>
 
