@@ -1,0 +1,2510 @@
+$date
+	Mon Oct 10 23:55:10 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module neuron_selector $end
+$var wire 6 ! cntrl_potential_in_sel [5:0] $end
+$var wire 6 " cntrl_potential_out_sel [5:0] $end
+$var wire 1 # cntrl_spk_select $end
+$var wire 1024 $ in_spk [1023:0] $end
+$var wire 128 % potential_in_16n [127:0] $end
+$var wire 128 & potential_out_16n [127:0] $end
+$var wire 8192 ' potential_out_all [8191:0] $end
+$var wire 2 ( processed_spk [1:0] $end
+$var wire 2048 ) spk_out [2047:0] $end
+$var wire 1024 * potential_in_ien_all [1023:0] $end
+$var wire 8192 + potential_in_all [8191:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope begin genblk1[8] $end
+$upscope $end
+$scope begin genblk1[9] $end
+$upscope $end
+$scope begin genblk1[10] $end
+$upscope $end
+$scope begin genblk1[11] $end
+$upscope $end
+$scope begin genblk1[12] $end
+$upscope $end
+$scope begin genblk1[13] $end
+$upscope $end
+$scope begin genblk1[14] $end
+$upscope $end
+$scope begin genblk1[15] $end
+$upscope $end
+$scope begin genblk1[16] $end
+$upscope $end
+$scope begin genblk1[17] $end
+$upscope $end
+$scope begin genblk1[18] $end
+$upscope $end
+$scope begin genblk1[19] $end
+$upscope $end
+$scope begin genblk1[20] $end
+$upscope $end
+$scope begin genblk1[21] $end
+$upscope $end
+$scope begin genblk1[22] $end
+$upscope $end
+$scope begin genblk1[23] $end
+$upscope $end
+$scope begin genblk1[24] $end
+$upscope $end
+$scope begin genblk1[25] $end
+$upscope $end
+$scope begin genblk1[26] $end
+$upscope $end
+$scope begin genblk1[27] $end
+$upscope $end
+$scope begin genblk1[28] $end
+$upscope $end
+$scope begin genblk1[29] $end
+$upscope $end
+$scope begin genblk1[30] $end
+$upscope $end
+$scope begin genblk1[31] $end
+$upscope $end
+$scope begin genblk1[32] $end
+$upscope $end
+$scope begin genblk1[33] $end
+$upscope $end
+$scope begin genblk1[34] $end
+$upscope $end
+$scope begin genblk1[35] $end
+$upscope $end
+$scope begin genblk1[36] $end
+$upscope $end
+$scope begin genblk1[37] $end
+$upscope $end
+$scope begin genblk1[38] $end
+$upscope $end
+$scope begin genblk1[39] $end
+$upscope $end
+$scope begin genblk1[40] $end
+$upscope $end
+$scope begin genblk1[41] $end
+$upscope $end
+$scope begin genblk1[42] $end
+$upscope $end
+$scope begin genblk1[43] $end
+$upscope $end
+$scope begin genblk1[44] $end
+$upscope $end
+$scope begin genblk1[45] $end
+$upscope $end
+$scope begin genblk1[46] $end
+$upscope $end
+$scope begin genblk1[47] $end
+$upscope $end
+$scope begin genblk1[48] $end
+$upscope $end
+$scope begin genblk1[49] $end
+$upscope $end
+$scope begin genblk1[50] $end
+$upscope $end
+$scope begin genblk1[51] $end
+$upscope $end
+$scope begin genblk1[52] $end
+$upscope $end
+$scope begin genblk1[53] $end
+$upscope $end
+$scope begin genblk1[54] $end
+$upscope $end
+$scope begin genblk1[55] $end
+$upscope $end
+$scope begin genblk1[56] $end
+$upscope $end
+$scope begin genblk1[57] $end
+$upscope $end
+$scope begin genblk1[58] $end
+$upscope $end
+$scope begin genblk1[59] $end
+$upscope $end
+$scope begin genblk1[60] $end
+$upscope $end
+$scope begin genblk1[61] $end
+$upscope $end
+$scope begin genblk1[62] $end
+$upscope $end
+$scope begin genblk1[63] $end
+$upscope $end
+$scope begin genblk2[0] $end
+$upscope $end
+$scope begin genblk2[1] $end
+$upscope $end
+$scope begin genblk2[2] $end
+$upscope $end
+$scope begin genblk2[3] $end
+$upscope $end
+$scope begin genblk2[4] $end
+$upscope $end
+$scope begin genblk2[5] $end
+$upscope $end
+$scope begin genblk2[6] $end
+$upscope $end
+$scope begin genblk2[7] $end
+$upscope $end
+$scope begin genblk2[8] $end
+$upscope $end
+$scope begin genblk2[9] $end
+$upscope $end
+$scope begin genblk2[10] $end
+$upscope $end
+$scope begin genblk2[11] $end
+$upscope $end
+$scope begin genblk2[12] $end
+$upscope $end
+$scope begin genblk2[13] $end
+$upscope $end
+$scope begin genblk2[14] $end
+$upscope $end
+$scope begin genblk2[15] $end
+$upscope $end
+$scope begin genblk2[16] $end
+$upscope $end
+$scope begin genblk2[17] $end
+$upscope $end
+$scope begin genblk2[18] $end
+$upscope $end
+$scope begin genblk2[19] $end
+$upscope $end
+$scope begin genblk2[20] $end
+$upscope $end
+$scope begin genblk2[21] $end
+$upscope $end
+$scope begin genblk2[22] $end
+$upscope $end
+$scope begin genblk2[23] $end
+$upscope $end
+$scope begin genblk2[24] $end
+$upscope $end
+$scope begin genblk2[25] $end
+$upscope $end
+$scope begin genblk2[26] $end
+$upscope $end
+$scope begin genblk2[27] $end
+$upscope $end
+$scope begin genblk2[28] $end
+$upscope $end
+$scope begin genblk2[29] $end
+$upscope $end
+$scope begin genblk2[30] $end
+$upscope $end
+$scope begin genblk2[31] $end
+$upscope $end
+$scope begin genblk2[32] $end
+$upscope $end
+$scope begin genblk2[33] $end
+$upscope $end
+$scope begin genblk2[34] $end
+$upscope $end
+$scope begin genblk2[35] $end
+$upscope $end
+$scope begin genblk2[36] $end
+$upscope $end
+$scope begin genblk2[37] $end
+$upscope $end
+$scope begin genblk2[38] $end
+$upscope $end
+$scope begin genblk2[39] $end
+$upscope $end
+$scope begin genblk2[40] $end
+$upscope $end
+$scope begin genblk2[41] $end
+$upscope $end
+$scope begin genblk2[42] $end
+$upscope $end
+$scope begin genblk2[43] $end
+$upscope $end
+$scope begin genblk2[44] $end
+$upscope $end
+$scope begin genblk2[45] $end
+$upscope $end
+$scope begin genblk2[46] $end
+$upscope $end
+$scope begin genblk2[47] $end
+$upscope $end
+$scope begin genblk2[48] $end
+$upscope $end
+$scope begin genblk2[49] $end
+$upscope $end
+$scope begin genblk2[50] $end
+$upscope $end
+$scope begin genblk2[51] $end
+$upscope $end
+$scope begin genblk2[52] $end
+$upscope $end
+$scope begin genblk2[53] $end
+$upscope $end
+$scope begin genblk2[54] $end
+$upscope $end
+$scope begin genblk2[55] $end
+$upscope $end
+$scope begin genblk2[56] $end
+$upscope $end
+$scope begin genblk2[57] $end
+$upscope $end
+$scope begin genblk2[58] $end
+$upscope $end
+$scope begin genblk2[59] $end
+$upscope $end
+$scope begin genblk2[60] $end
+$upscope $end
+$scope begin genblk2[61] $end
+$upscope $end
+$scope begin genblk2[62] $end
+$upscope $end
+$scope begin genblk2[63] $end
+$upscope $end
+$scope begin genblk3[0] $end
+$upscope $end
+$scope begin genblk3[1] $end
+$upscope $end
+$scope begin genblk3[2] $end
+$upscope $end
+$scope begin genblk3[3] $end
+$upscope $end
+$scope begin genblk3[4] $end
+$upscope $end
+$scope begin genblk3[5] $end
+$upscope $end
+$scope begin genblk3[6] $end
+$upscope $end
+$scope begin genblk3[7] $end
+$upscope $end
+$scope begin genblk3[8] $end
+$upscope $end
+$scope begin genblk3[9] $end
+$upscope $end
+$scope begin genblk3[10] $end
+$upscope $end
+$scope begin genblk3[11] $end
+$upscope $end
+$scope begin genblk3[12] $end
+$upscope $end
+$scope begin genblk3[13] $end
+$upscope $end
+$scope begin genblk3[14] $end
+$upscope $end
+$scope begin genblk3[15] $end
+$upscope $end
+$scope begin genblk3[16] $end
+$upscope $end
+$scope begin genblk3[17] $end
+$upscope $end
+$scope begin genblk3[18] $end
+$upscope $end
+$scope begin genblk3[19] $end
+$upscope $end
+$scope begin genblk3[20] $end
+$upscope $end
+$scope begin genblk3[21] $end
+$upscope $end
+$scope begin genblk3[22] $end
+$upscope $end
+$scope begin genblk3[23] $end
+$upscope $end
+$scope begin genblk3[24] $end
+$upscope $end
+$scope begin genblk3[25] $end
+$upscope $end
+$scope begin genblk3[26] $end
+$upscope $end
+$scope begin genblk3[27] $end
+$upscope $end
+$scope begin genblk3[28] $end
+$upscope $end
+$scope begin genblk3[29] $end
+$upscope $end
+$scope begin genblk3[30] $end
+$upscope $end
+$scope begin genblk3[31] $end
+$upscope $end
+$scope begin genblk3[32] $end
+$upscope $end
+$scope begin genblk3[33] $end
+$upscope $end
+$scope begin genblk3[34] $end
+$upscope $end
+$scope begin genblk3[35] $end
+$upscope $end
+$scope begin genblk3[36] $end
+$upscope $end
+$scope begin genblk3[37] $end
+$upscope $end
+$scope begin genblk3[38] $end
+$upscope $end
+$scope begin genblk3[39] $end
+$upscope $end
+$scope begin genblk3[40] $end
+$upscope $end
+$scope begin genblk3[41] $end
+$upscope $end
+$scope begin genblk3[42] $end
+$upscope $end
+$scope begin genblk3[43] $end
+$upscope $end
+$scope begin genblk3[44] $end
+$upscope $end
+$scope begin genblk3[45] $end
+$upscope $end
+$scope begin genblk3[46] $end
+$upscope $end
+$scope begin genblk3[47] $end
+$upscope $end
+$scope begin genblk3[48] $end
+$upscope $end
+$scope begin genblk3[49] $end
+$upscope $end
+$scope begin genblk3[50] $end
+$upscope $end
+$scope begin genblk3[51] $end
+$upscope $end
+$scope begin genblk3[52] $end
+$upscope $end
+$scope begin genblk3[53] $end
+$upscope $end
+$scope begin genblk3[54] $end
+$upscope $end
+$scope begin genblk3[55] $end
+$upscope $end
+$scope begin genblk3[56] $end
+$upscope $end
+$scope begin genblk3[57] $end
+$upscope $end
+$scope begin genblk3[58] $end
+$upscope $end
+$scope begin genblk3[59] $end
+$upscope $end
+$scope begin genblk3[60] $end
+$upscope $end
+$scope begin genblk3[61] $end
+$upscope $end
+$scope begin genblk3[62] $end
+$upscope $end
+$scope begin genblk3[63] $end
+$upscope $end
+$scope begin genblk4[0] $end
+$upscope $end
+$scope begin genblk4[1] $end
+$upscope $end
+$scope begin genblk4[2] $end
+$upscope $end
+$scope begin genblk4[3] $end
+$upscope $end
+$scope begin genblk4[4] $end
+$upscope $end
+$scope begin genblk4[5] $end
+$upscope $end
+$scope begin genblk4[6] $end
+$upscope $end
+$scope begin genblk4[7] $end
+$upscope $end
+$scope begin genblk4[8] $end
+$upscope $end
+$scope begin genblk4[9] $end
+$upscope $end
+$scope begin genblk4[10] $end
+$upscope $end
+$scope begin genblk4[11] $end
+$upscope $end
+$scope begin genblk4[12] $end
+$upscope $end
+$scope begin genblk4[13] $end
+$upscope $end
+$scope begin genblk4[14] $end
+$upscope $end
+$scope begin genblk4[15] $end
+$upscope $end
+$scope begin genblk4[16] $end
+$upscope $end
+$scope begin genblk4[17] $end
+$upscope $end
+$scope begin genblk4[18] $end
+$upscope $end
+$scope begin genblk4[19] $end
+$upscope $end
+$scope begin genblk4[20] $end
+$upscope $end
+$scope begin genblk4[21] $end
+$upscope $end
+$scope begin genblk4[22] $end
+$upscope $end
+$scope begin genblk4[23] $end
+$upscope $end
+$scope begin genblk4[24] $end
+$upscope $end
+$scope begin genblk4[25] $end
+$upscope $end
+$scope begin genblk4[26] $end
+$upscope $end
+$scope begin genblk4[27] $end
+$upscope $end
+$scope begin genblk4[28] $end
+$upscope $end
+$scope begin genblk4[29] $end
+$upscope $end
+$scope begin genblk4[30] $end
+$upscope $end
+$scope begin genblk4[31] $end
+$upscope $end
+$scope begin genblk4[32] $end
+$upscope $end
+$scope begin genblk4[33] $end
+$upscope $end
+$scope begin genblk4[34] $end
+$upscope $end
+$scope begin genblk4[35] $end
+$upscope $end
+$scope begin genblk4[36] $end
+$upscope $end
+$scope begin genblk4[37] $end
+$upscope $end
+$scope begin genblk4[38] $end
+$upscope $end
+$scope begin genblk4[39] $end
+$upscope $end
+$scope begin genblk4[40] $end
+$upscope $end
+$scope begin genblk4[41] $end
+$upscope $end
+$scope begin genblk4[42] $end
+$upscope $end
+$scope begin genblk4[43] $end
+$upscope $end
+$scope begin genblk4[44] $end
+$upscope $end
+$scope begin genblk4[45] $end
+$upscope $end
+$scope begin genblk4[46] $end
+$upscope $end
+$scope begin genblk4[47] $end
+$upscope $end
+$scope begin genblk4[48] $end
+$upscope $end
+$scope begin genblk4[49] $end
+$upscope $end
+$scope begin genblk4[50] $end
+$upscope $end
+$scope begin genblk4[51] $end
+$upscope $end
+$scope begin genblk4[52] $end
+$upscope $end
+$scope begin genblk4[53] $end
+$upscope $end
+$scope begin genblk4[54] $end
+$upscope $end
+$scope begin genblk4[55] $end
+$upscope $end
+$scope begin genblk4[56] $end
+$upscope $end
+$scope begin genblk4[57] $end
+$upscope $end
+$scope begin genblk4[58] $end
+$upscope $end
+$scope begin genblk4[59] $end
+$upscope $end
+$scope begin genblk4[60] $end
+$upscope $end
+$scope begin genblk4[61] $end
+$upscope $end
+$scope begin genblk4[62] $end
+$upscope $end
+$scope begin genblk4[63] $end
+$upscope $end
+$scope begin genblk4[64] $end
+$upscope $end
+$scope begin genblk4[65] $end
+$upscope $end
+$scope begin genblk4[66] $end
+$upscope $end
+$scope begin genblk4[67] $end
+$upscope $end
+$scope begin genblk4[68] $end
+$upscope $end
+$scope begin genblk4[69] $end
+$upscope $end
+$scope begin genblk4[70] $end
+$upscope $end
+$scope begin genblk4[71] $end
+$upscope $end
+$scope begin genblk4[72] $end
+$upscope $end
+$scope begin genblk4[73] $end
+$upscope $end
+$scope begin genblk4[74] $end
+$upscope $end
+$scope begin genblk4[75] $end
+$upscope $end
+$scope begin genblk4[76] $end
+$upscope $end
+$scope begin genblk4[77] $end
+$upscope $end
+$scope begin genblk4[78] $end
+$upscope $end
+$scope begin genblk4[79] $end
+$upscope $end
+$scope begin genblk4[80] $end
+$upscope $end
+$scope begin genblk4[81] $end
+$upscope $end
+$scope begin genblk4[82] $end
+$upscope $end
+$scope begin genblk4[83] $end
+$upscope $end
+$scope begin genblk4[84] $end
+$upscope $end
+$scope begin genblk4[85] $end
+$upscope $end
+$scope begin genblk4[86] $end
+$upscope $end
+$scope begin genblk4[87] $end
+$upscope $end
+$scope begin genblk4[88] $end
+$upscope $end
+$scope begin genblk4[89] $end
+$upscope $end
+$scope begin genblk4[90] $end
+$upscope $end
+$scope begin genblk4[91] $end
+$upscope $end
+$scope begin genblk4[92] $end
+$upscope $end
+$scope begin genblk4[93] $end
+$upscope $end
+$scope begin genblk4[94] $end
+$upscope $end
+$scope begin genblk4[95] $end
+$upscope $end
+$scope begin genblk4[96] $end
+$upscope $end
+$scope begin genblk4[97] $end
+$upscope $end
+$scope begin genblk4[98] $end
+$upscope $end
+$scope begin genblk4[99] $end
+$upscope $end
+$scope begin genblk4[100] $end
+$upscope $end
+$scope begin genblk4[101] $end
+$upscope $end
+$scope begin genblk4[102] $end
+$upscope $end
+$scope begin genblk4[103] $end
+$upscope $end
+$scope begin genblk4[104] $end
+$upscope $end
+$scope begin genblk4[105] $end
+$upscope $end
+$scope begin genblk4[106] $end
+$upscope $end
+$scope begin genblk4[107] $end
+$upscope $end
+$scope begin genblk4[108] $end
+$upscope $end
+$scope begin genblk4[109] $end
+$upscope $end
+$scope begin genblk4[110] $end
+$upscope $end
+$scope begin genblk4[111] $end
+$upscope $end
+$scope begin genblk4[112] $end
+$upscope $end
+$scope begin genblk4[113] $end
+$upscope $end
+$scope begin genblk4[114] $end
+$upscope $end
+$scope begin genblk4[115] $end
+$upscope $end
+$scope begin genblk4[116] $end
+$upscope $end
+$scope begin genblk4[117] $end
+$upscope $end
+$scope begin genblk4[118] $end
+$upscope $end
+$scope begin genblk4[119] $end
+$upscope $end
+$scope begin genblk4[120] $end
+$upscope $end
+$scope begin genblk4[121] $end
+$upscope $end
+$scope begin genblk4[122] $end
+$upscope $end
+$scope begin genblk4[123] $end
+$upscope $end
+$scope begin genblk4[124] $end
+$upscope $end
+$scope begin genblk4[125] $end
+$upscope $end
+$scope begin genblk4[126] $end
+$upscope $end
+$scope begin genblk4[127] $end
+$upscope $end
+$scope begin genblk4[128] $end
+$upscope $end
+$scope begin genblk4[129] $end
+$upscope $end
+$scope begin genblk4[130] $end
+$upscope $end
+$scope begin genblk4[131] $end
+$upscope $end
+$scope begin genblk4[132] $end
+$upscope $end
+$scope begin genblk4[133] $end
+$upscope $end
+$scope begin genblk4[134] $end
+$upscope $end
+$scope begin genblk4[135] $end
+$upscope $end
+$scope begin genblk4[136] $end
+$upscope $end
+$scope begin genblk4[137] $end
+$upscope $end
+$scope begin genblk4[138] $end
+$upscope $end
+$scope begin genblk4[139] $end
+$upscope $end
+$scope begin genblk4[140] $end
+$upscope $end
+$scope begin genblk4[141] $end
+$upscope $end
+$scope begin genblk4[142] $end
+$upscope $end
+$scope begin genblk4[143] $end
+$upscope $end
+$scope begin genblk4[144] $end
+$upscope $end
+$scope begin genblk4[145] $end
+$upscope $end
+$scope begin genblk4[146] $end
+$upscope $end
+$scope begin genblk4[147] $end
+$upscope $end
+$scope begin genblk4[148] $end
+$upscope $end
+$scope begin genblk4[149] $end
+$upscope $end
+$scope begin genblk4[150] $end
+$upscope $end
+$scope begin genblk4[151] $end
+$upscope $end
+$scope begin genblk4[152] $end
+$upscope $end
+$scope begin genblk4[153] $end
+$upscope $end
+$scope begin genblk4[154] $end
+$upscope $end
+$scope begin genblk4[155] $end
+$upscope $end
+$scope begin genblk4[156] $end
+$upscope $end
+$scope begin genblk4[157] $end
+$upscope $end
+$scope begin genblk4[158] $end
+$upscope $end
+$scope begin genblk4[159] $end
+$upscope $end
+$scope begin genblk4[160] $end
+$upscope $end
+$scope begin genblk4[161] $end
+$upscope $end
+$scope begin genblk4[162] $end
+$upscope $end
+$scope begin genblk4[163] $end
+$upscope $end
+$scope begin genblk4[164] $end
+$upscope $end
+$scope begin genblk4[165] $end
+$upscope $end
+$scope begin genblk4[166] $end
+$upscope $end
+$scope begin genblk4[167] $end
+$upscope $end
+$scope begin genblk4[168] $end
+$upscope $end
+$scope begin genblk4[169] $end
+$upscope $end
+$scope begin genblk4[170] $end
+$upscope $end
+$scope begin genblk4[171] $end
+$upscope $end
+$scope begin genblk4[172] $end
+$upscope $end
+$scope begin genblk4[173] $end
+$upscope $end
+$scope begin genblk4[174] $end
+$upscope $end
+$scope begin genblk4[175] $end
+$upscope $end
+$scope begin genblk4[176] $end
+$upscope $end
+$scope begin genblk4[177] $end
+$upscope $end
+$scope begin genblk4[178] $end
+$upscope $end
+$scope begin genblk4[179] $end
+$upscope $end
+$scope begin genblk4[180] $end
+$upscope $end
+$scope begin genblk4[181] $end
+$upscope $end
+$scope begin genblk4[182] $end
+$upscope $end
+$scope begin genblk4[183] $end
+$upscope $end
+$scope begin genblk4[184] $end
+$upscope $end
+$scope begin genblk4[185] $end
+$upscope $end
+$scope begin genblk4[186] $end
+$upscope $end
+$scope begin genblk4[187] $end
+$upscope $end
+$scope begin genblk4[188] $end
+$upscope $end
+$scope begin genblk4[189] $end
+$upscope $end
+$scope begin genblk4[190] $end
+$upscope $end
+$scope begin genblk4[191] $end
+$upscope $end
+$scope begin genblk4[192] $end
+$upscope $end
+$scope begin genblk4[193] $end
+$upscope $end
+$scope begin genblk4[194] $end
+$upscope $end
+$scope begin genblk4[195] $end
+$upscope $end
+$scope begin genblk4[196] $end
+$upscope $end
+$scope begin genblk4[197] $end
+$upscope $end
+$scope begin genblk4[198] $end
+$upscope $end
+$scope begin genblk4[199] $end
+$upscope $end
+$scope begin genblk4[200] $end
+$upscope $end
+$scope begin genblk4[201] $end
+$upscope $end
+$scope begin genblk4[202] $end
+$upscope $end
+$scope begin genblk4[203] $end
+$upscope $end
+$scope begin genblk4[204] $end
+$upscope $end
+$scope begin genblk4[205] $end
+$upscope $end
+$scope begin genblk4[206] $end
+$upscope $end
+$scope begin genblk4[207] $end
+$upscope $end
+$scope begin genblk4[208] $end
+$upscope $end
+$scope begin genblk4[209] $end
+$upscope $end
+$scope begin genblk4[210] $end
+$upscope $end
+$scope begin genblk4[211] $end
+$upscope $end
+$scope begin genblk4[212] $end
+$upscope $end
+$scope begin genblk4[213] $end
+$upscope $end
+$scope begin genblk4[214] $end
+$upscope $end
+$scope begin genblk4[215] $end
+$upscope $end
+$scope begin genblk4[216] $end
+$upscope $end
+$scope begin genblk4[217] $end
+$upscope $end
+$scope begin genblk4[218] $end
+$upscope $end
+$scope begin genblk4[219] $end
+$upscope $end
+$scope begin genblk4[220] $end
+$upscope $end
+$scope begin genblk4[221] $end
+$upscope $end
+$scope begin genblk4[222] $end
+$upscope $end
+$scope begin genblk4[223] $end
+$upscope $end
+$scope begin genblk4[224] $end
+$upscope $end
+$scope begin genblk4[225] $end
+$upscope $end
+$scope begin genblk4[226] $end
+$upscope $end
+$scope begin genblk4[227] $end
+$upscope $end
+$scope begin genblk4[228] $end
+$upscope $end
+$scope begin genblk4[229] $end
+$upscope $end
+$scope begin genblk4[230] $end
+$upscope $end
+$scope begin genblk4[231] $end
+$upscope $end
+$scope begin genblk4[232] $end
+$upscope $end
+$scope begin genblk4[233] $end
+$upscope $end
+$scope begin genblk4[234] $end
+$upscope $end
+$scope begin genblk4[235] $end
+$upscope $end
+$scope begin genblk4[236] $end
+$upscope $end
+$scope begin genblk4[237] $end
+$upscope $end
+$scope begin genblk4[238] $end
+$upscope $end
+$scope begin genblk4[239] $end
+$upscope $end
+$scope begin genblk4[240] $end
+$upscope $end
+$scope begin genblk4[241] $end
+$upscope $end
+$scope begin genblk4[242] $end
+$upscope $end
+$scope begin genblk4[243] $end
+$upscope $end
+$scope begin genblk4[244] $end
+$upscope $end
+$scope begin genblk4[245] $end
+$upscope $end
+$scope begin genblk4[246] $end
+$upscope $end
+$scope begin genblk4[247] $end
+$upscope $end
+$scope begin genblk4[248] $end
+$upscope $end
+$scope begin genblk4[249] $end
+$upscope $end
+$scope begin genblk4[250] $end
+$upscope $end
+$scope begin genblk4[251] $end
+$upscope $end
+$scope begin genblk4[252] $end
+$upscope $end
+$scope begin genblk4[253] $end
+$upscope $end
+$scope begin genblk4[254] $end
+$upscope $end
+$scope begin genblk4[255] $end
+$upscope $end
+$scope begin genblk4[256] $end
+$upscope $end
+$scope begin genblk4[257] $end
+$upscope $end
+$scope begin genblk4[258] $end
+$upscope $end
+$scope begin genblk4[259] $end
+$upscope $end
+$scope begin genblk4[260] $end
+$upscope $end
+$scope begin genblk4[261] $end
+$upscope $end
+$scope begin genblk4[262] $end
+$upscope $end
+$scope begin genblk4[263] $end
+$upscope $end
+$scope begin genblk4[264] $end
+$upscope $end
+$scope begin genblk4[265] $end
+$upscope $end
+$scope begin genblk4[266] $end
+$upscope $end
+$scope begin genblk4[267] $end
+$upscope $end
+$scope begin genblk4[268] $end
+$upscope $end
+$scope begin genblk4[269] $end
+$upscope $end
+$scope begin genblk4[270] $end
+$upscope $end
+$scope begin genblk4[271] $end
+$upscope $end
+$scope begin genblk4[272] $end
+$upscope $end
+$scope begin genblk4[273] $end
+$upscope $end
+$scope begin genblk4[274] $end
+$upscope $end
+$scope begin genblk4[275] $end
+$upscope $end
+$scope begin genblk4[276] $end
+$upscope $end
+$scope begin genblk4[277] $end
+$upscope $end
+$scope begin genblk4[278] $end
+$upscope $end
+$scope begin genblk4[279] $end
+$upscope $end
+$scope begin genblk4[280] $end
+$upscope $end
+$scope begin genblk4[281] $end
+$upscope $end
+$scope begin genblk4[282] $end
+$upscope $end
+$scope begin genblk4[283] $end
+$upscope $end
+$scope begin genblk4[284] $end
+$upscope $end
+$scope begin genblk4[285] $end
+$upscope $end
+$scope begin genblk4[286] $end
+$upscope $end
+$scope begin genblk4[287] $end
+$upscope $end
+$scope begin genblk4[288] $end
+$upscope $end
+$scope begin genblk4[289] $end
+$upscope $end
+$scope begin genblk4[290] $end
+$upscope $end
+$scope begin genblk4[291] $end
+$upscope $end
+$scope begin genblk4[292] $end
+$upscope $end
+$scope begin genblk4[293] $end
+$upscope $end
+$scope begin genblk4[294] $end
+$upscope $end
+$scope begin genblk4[295] $end
+$upscope $end
+$scope begin genblk4[296] $end
+$upscope $end
+$scope begin genblk4[297] $end
+$upscope $end
+$scope begin genblk4[298] $end
+$upscope $end
+$scope begin genblk4[299] $end
+$upscope $end
+$scope begin genblk4[300] $end
+$upscope $end
+$scope begin genblk4[301] $end
+$upscope $end
+$scope begin genblk4[302] $end
+$upscope $end
+$scope begin genblk4[303] $end
+$upscope $end
+$scope begin genblk4[304] $end
+$upscope $end
+$scope begin genblk4[305] $end
+$upscope $end
+$scope begin genblk4[306] $end
+$upscope $end
+$scope begin genblk4[307] $end
+$upscope $end
+$scope begin genblk4[308] $end
+$upscope $end
+$scope begin genblk4[309] $end
+$upscope $end
+$scope begin genblk4[310] $end
+$upscope $end
+$scope begin genblk4[311] $end
+$upscope $end
+$scope begin genblk4[312] $end
+$upscope $end
+$scope begin genblk4[313] $end
+$upscope $end
+$scope begin genblk4[314] $end
+$upscope $end
+$scope begin genblk4[315] $end
+$upscope $end
+$scope begin genblk4[316] $end
+$upscope $end
+$scope begin genblk4[317] $end
+$upscope $end
+$scope begin genblk4[318] $end
+$upscope $end
+$scope begin genblk4[319] $end
+$upscope $end
+$scope begin genblk4[320] $end
+$upscope $end
+$scope begin genblk4[321] $end
+$upscope $end
+$scope begin genblk4[322] $end
+$upscope $end
+$scope begin genblk4[323] $end
+$upscope $end
+$scope begin genblk4[324] $end
+$upscope $end
+$scope begin genblk4[325] $end
+$upscope $end
+$scope begin genblk4[326] $end
+$upscope $end
+$scope begin genblk4[327] $end
+$upscope $end
+$scope begin genblk4[328] $end
+$upscope $end
+$scope begin genblk4[329] $end
+$upscope $end
+$scope begin genblk4[330] $end
+$upscope $end
+$scope begin genblk4[331] $end
+$upscope $end
+$scope begin genblk4[332] $end
+$upscope $end
+$scope begin genblk4[333] $end
+$upscope $end
+$scope begin genblk4[334] $end
+$upscope $end
+$scope begin genblk4[335] $end
+$upscope $end
+$scope begin genblk4[336] $end
+$upscope $end
+$scope begin genblk4[337] $end
+$upscope $end
+$scope begin genblk4[338] $end
+$upscope $end
+$scope begin genblk4[339] $end
+$upscope $end
+$scope begin genblk4[340] $end
+$upscope $end
+$scope begin genblk4[341] $end
+$upscope $end
+$scope begin genblk4[342] $end
+$upscope $end
+$scope begin genblk4[343] $end
+$upscope $end
+$scope begin genblk4[344] $end
+$upscope $end
+$scope begin genblk4[345] $end
+$upscope $end
+$scope begin genblk4[346] $end
+$upscope $end
+$scope begin genblk4[347] $end
+$upscope $end
+$scope begin genblk4[348] $end
+$upscope $end
+$scope begin genblk4[349] $end
+$upscope $end
+$scope begin genblk4[350] $end
+$upscope $end
+$scope begin genblk4[351] $end
+$upscope $end
+$scope begin genblk4[352] $end
+$upscope $end
+$scope begin genblk4[353] $end
+$upscope $end
+$scope begin genblk4[354] $end
+$upscope $end
+$scope begin genblk4[355] $end
+$upscope $end
+$scope begin genblk4[356] $end
+$upscope $end
+$scope begin genblk4[357] $end
+$upscope $end
+$scope begin genblk4[358] $end
+$upscope $end
+$scope begin genblk4[359] $end
+$upscope $end
+$scope begin genblk4[360] $end
+$upscope $end
+$scope begin genblk4[361] $end
+$upscope $end
+$scope begin genblk4[362] $end
+$upscope $end
+$scope begin genblk4[363] $end
+$upscope $end
+$scope begin genblk4[364] $end
+$upscope $end
+$scope begin genblk4[365] $end
+$upscope $end
+$scope begin genblk4[366] $end
+$upscope $end
+$scope begin genblk4[367] $end
+$upscope $end
+$scope begin genblk4[368] $end
+$upscope $end
+$scope begin genblk4[369] $end
+$upscope $end
+$scope begin genblk4[370] $end
+$upscope $end
+$scope begin genblk4[371] $end
+$upscope $end
+$scope begin genblk4[372] $end
+$upscope $end
+$scope begin genblk4[373] $end
+$upscope $end
+$scope begin genblk4[374] $end
+$upscope $end
+$scope begin genblk4[375] $end
+$upscope $end
+$scope begin genblk4[376] $end
+$upscope $end
+$scope begin genblk4[377] $end
+$upscope $end
+$scope begin genblk4[378] $end
+$upscope $end
+$scope begin genblk4[379] $end
+$upscope $end
+$scope begin genblk4[380] $end
+$upscope $end
+$scope begin genblk4[381] $end
+$upscope $end
+$scope begin genblk4[382] $end
+$upscope $end
+$scope begin genblk4[383] $end
+$upscope $end
+$scope begin genblk4[384] $end
+$upscope $end
+$scope begin genblk4[385] $end
+$upscope $end
+$scope begin genblk4[386] $end
+$upscope $end
+$scope begin genblk4[387] $end
+$upscope $end
+$scope begin genblk4[388] $end
+$upscope $end
+$scope begin genblk4[389] $end
+$upscope $end
+$scope begin genblk4[390] $end
+$upscope $end
+$scope begin genblk4[391] $end
+$upscope $end
+$scope begin genblk4[392] $end
+$upscope $end
+$scope begin genblk4[393] $end
+$upscope $end
+$scope begin genblk4[394] $end
+$upscope $end
+$scope begin genblk4[395] $end
+$upscope $end
+$scope begin genblk4[396] $end
+$upscope $end
+$scope begin genblk4[397] $end
+$upscope $end
+$scope begin genblk4[398] $end
+$upscope $end
+$scope begin genblk4[399] $end
+$upscope $end
+$scope begin genblk4[400] $end
+$upscope $end
+$scope begin genblk4[401] $end
+$upscope $end
+$scope begin genblk4[402] $end
+$upscope $end
+$scope begin genblk4[403] $end
+$upscope $end
+$scope begin genblk4[404] $end
+$upscope $end
+$scope begin genblk4[405] $end
+$upscope $end
+$scope begin genblk4[406] $end
+$upscope $end
+$scope begin genblk4[407] $end
+$upscope $end
+$scope begin genblk4[408] $end
+$upscope $end
+$scope begin genblk4[409] $end
+$upscope $end
+$scope begin genblk4[410] $end
+$upscope $end
+$scope begin genblk4[411] $end
+$upscope $end
+$scope begin genblk4[412] $end
+$upscope $end
+$scope begin genblk4[413] $end
+$upscope $end
+$scope begin genblk4[414] $end
+$upscope $end
+$scope begin genblk4[415] $end
+$upscope $end
+$scope begin genblk4[416] $end
+$upscope $end
+$scope begin genblk4[417] $end
+$upscope $end
+$scope begin genblk4[418] $end
+$upscope $end
+$scope begin genblk4[419] $end
+$upscope $end
+$scope begin genblk4[420] $end
+$upscope $end
+$scope begin genblk4[421] $end
+$upscope $end
+$scope begin genblk4[422] $end
+$upscope $end
+$scope begin genblk4[423] $end
+$upscope $end
+$scope begin genblk4[424] $end
+$upscope $end
+$scope begin genblk4[425] $end
+$upscope $end
+$scope begin genblk4[426] $end
+$upscope $end
+$scope begin genblk4[427] $end
+$upscope $end
+$scope begin genblk4[428] $end
+$upscope $end
+$scope begin genblk4[429] $end
+$upscope $end
+$scope begin genblk4[430] $end
+$upscope $end
+$scope begin genblk4[431] $end
+$upscope $end
+$scope begin genblk4[432] $end
+$upscope $end
+$scope begin genblk4[433] $end
+$upscope $end
+$scope begin genblk4[434] $end
+$upscope $end
+$scope begin genblk4[435] $end
+$upscope $end
+$scope begin genblk4[436] $end
+$upscope $end
+$scope begin genblk4[437] $end
+$upscope $end
+$scope begin genblk4[438] $end
+$upscope $end
+$scope begin genblk4[439] $end
+$upscope $end
+$scope begin genblk4[440] $end
+$upscope $end
+$scope begin genblk4[441] $end
+$upscope $end
+$scope begin genblk4[442] $end
+$upscope $end
+$scope begin genblk4[443] $end
+$upscope $end
+$scope begin genblk4[444] $end
+$upscope $end
+$scope begin genblk4[445] $end
+$upscope $end
+$scope begin genblk4[446] $end
+$upscope $end
+$scope begin genblk4[447] $end
+$upscope $end
+$scope begin genblk4[448] $end
+$upscope $end
+$scope begin genblk4[449] $end
+$upscope $end
+$scope begin genblk4[450] $end
+$upscope $end
+$scope begin genblk4[451] $end
+$upscope $end
+$scope begin genblk4[452] $end
+$upscope $end
+$scope begin genblk4[453] $end
+$upscope $end
+$scope begin genblk4[454] $end
+$upscope $end
+$scope begin genblk4[455] $end
+$upscope $end
+$scope begin genblk4[456] $end
+$upscope $end
+$scope begin genblk4[457] $end
+$upscope $end
+$scope begin genblk4[458] $end
+$upscope $end
+$scope begin genblk4[459] $end
+$upscope $end
+$scope begin genblk4[460] $end
+$upscope $end
+$scope begin genblk4[461] $end
+$upscope $end
+$scope begin genblk4[462] $end
+$upscope $end
+$scope begin genblk4[463] $end
+$upscope $end
+$scope begin genblk4[464] $end
+$upscope $end
+$scope begin genblk4[465] $end
+$upscope $end
+$scope begin genblk4[466] $end
+$upscope $end
+$scope begin genblk4[467] $end
+$upscope $end
+$scope begin genblk4[468] $end
+$upscope $end
+$scope begin genblk4[469] $end
+$upscope $end
+$scope begin genblk4[470] $end
+$upscope $end
+$scope begin genblk4[471] $end
+$upscope $end
+$scope begin genblk4[472] $end
+$upscope $end
+$scope begin genblk4[473] $end
+$upscope $end
+$scope begin genblk4[474] $end
+$upscope $end
+$scope begin genblk4[475] $end
+$upscope $end
+$scope begin genblk4[476] $end
+$upscope $end
+$scope begin genblk4[477] $end
+$upscope $end
+$scope begin genblk4[478] $end
+$upscope $end
+$scope begin genblk4[479] $end
+$upscope $end
+$scope begin genblk4[480] $end
+$upscope $end
+$scope begin genblk4[481] $end
+$upscope $end
+$scope begin genblk4[482] $end
+$upscope $end
+$scope begin genblk4[483] $end
+$upscope $end
+$scope begin genblk4[484] $end
+$upscope $end
+$scope begin genblk4[485] $end
+$upscope $end
+$scope begin genblk4[486] $end
+$upscope $end
+$scope begin genblk4[487] $end
+$upscope $end
+$scope begin genblk4[488] $end
+$upscope $end
+$scope begin genblk4[489] $end
+$upscope $end
+$scope begin genblk4[490] $end
+$upscope $end
+$scope begin genblk4[491] $end
+$upscope $end
+$scope begin genblk4[492] $end
+$upscope $end
+$scope begin genblk4[493] $end
+$upscope $end
+$scope begin genblk4[494] $end
+$upscope $end
+$scope begin genblk4[495] $end
+$upscope $end
+$scope begin genblk4[496] $end
+$upscope $end
+$scope begin genblk4[497] $end
+$upscope $end
+$scope begin genblk4[498] $end
+$upscope $end
+$scope begin genblk4[499] $end
+$upscope $end
+$scope begin genblk4[500] $end
+$upscope $end
+$scope begin genblk4[501] $end
+$upscope $end
+$scope begin genblk4[502] $end
+$upscope $end
+$scope begin genblk4[503] $end
+$upscope $end
+$scope begin genblk4[504] $end
+$upscope $end
+$scope begin genblk4[505] $end
+$upscope $end
+$scope begin genblk4[506] $end
+$upscope $end
+$scope begin genblk4[507] $end
+$upscope $end
+$scope begin genblk4[508] $end
+$upscope $end
+$scope begin genblk4[509] $end
+$upscope $end
+$scope begin genblk4[510] $end
+$upscope $end
+$scope begin genblk4[511] $end
+$upscope $end
+$scope begin genblk4[512] $end
+$upscope $end
+$scope begin genblk4[513] $end
+$upscope $end
+$scope begin genblk4[514] $end
+$upscope $end
+$scope begin genblk4[515] $end
+$upscope $end
+$scope begin genblk4[516] $end
+$upscope $end
+$scope begin genblk4[517] $end
+$upscope $end
+$scope begin genblk4[518] $end
+$upscope $end
+$scope begin genblk4[519] $end
+$upscope $end
+$scope begin genblk4[520] $end
+$upscope $end
+$scope begin genblk4[521] $end
+$upscope $end
+$scope begin genblk4[522] $end
+$upscope $end
+$scope begin genblk4[523] $end
+$upscope $end
+$scope begin genblk4[524] $end
+$upscope $end
+$scope begin genblk4[525] $end
+$upscope $end
+$scope begin genblk4[526] $end
+$upscope $end
+$scope begin genblk4[527] $end
+$upscope $end
+$scope begin genblk4[528] $end
+$upscope $end
+$scope begin genblk4[529] $end
+$upscope $end
+$scope begin genblk4[530] $end
+$upscope $end
+$scope begin genblk4[531] $end
+$upscope $end
+$scope begin genblk4[532] $end
+$upscope $end
+$scope begin genblk4[533] $end
+$upscope $end
+$scope begin genblk4[534] $end
+$upscope $end
+$scope begin genblk4[535] $end
+$upscope $end
+$scope begin genblk4[536] $end
+$upscope $end
+$scope begin genblk4[537] $end
+$upscope $end
+$scope begin genblk4[538] $end
+$upscope $end
+$scope begin genblk4[539] $end
+$upscope $end
+$scope begin genblk4[540] $end
+$upscope $end
+$scope begin genblk4[541] $end
+$upscope $end
+$scope begin genblk4[542] $end
+$upscope $end
+$scope begin genblk4[543] $end
+$upscope $end
+$scope begin genblk4[544] $end
+$upscope $end
+$scope begin genblk4[545] $end
+$upscope $end
+$scope begin genblk4[546] $end
+$upscope $end
+$scope begin genblk4[547] $end
+$upscope $end
+$scope begin genblk4[548] $end
+$upscope $end
+$scope begin genblk4[549] $end
+$upscope $end
+$scope begin genblk4[550] $end
+$upscope $end
+$scope begin genblk4[551] $end
+$upscope $end
+$scope begin genblk4[552] $end
+$upscope $end
+$scope begin genblk4[553] $end
+$upscope $end
+$scope begin genblk4[554] $end
+$upscope $end
+$scope begin genblk4[555] $end
+$upscope $end
+$scope begin genblk4[556] $end
+$upscope $end
+$scope begin genblk4[557] $end
+$upscope $end
+$scope begin genblk4[558] $end
+$upscope $end
+$scope begin genblk4[559] $end
+$upscope $end
+$scope begin genblk4[560] $end
+$upscope $end
+$scope begin genblk4[561] $end
+$upscope $end
+$scope begin genblk4[562] $end
+$upscope $end
+$scope begin genblk4[563] $end
+$upscope $end
+$scope begin genblk4[564] $end
+$upscope $end
+$scope begin genblk4[565] $end
+$upscope $end
+$scope begin genblk4[566] $end
+$upscope $end
+$scope begin genblk4[567] $end
+$upscope $end
+$scope begin genblk4[568] $end
+$upscope $end
+$scope begin genblk4[569] $end
+$upscope $end
+$scope begin genblk4[570] $end
+$upscope $end
+$scope begin genblk4[571] $end
+$upscope $end
+$scope begin genblk4[572] $end
+$upscope $end
+$scope begin genblk4[573] $end
+$upscope $end
+$scope begin genblk4[574] $end
+$upscope $end
+$scope begin genblk4[575] $end
+$upscope $end
+$scope begin genblk4[576] $end
+$upscope $end
+$scope begin genblk4[577] $end
+$upscope $end
+$scope begin genblk4[578] $end
+$upscope $end
+$scope begin genblk4[579] $end
+$upscope $end
+$scope begin genblk4[580] $end
+$upscope $end
+$scope begin genblk4[581] $end
+$upscope $end
+$scope begin genblk4[582] $end
+$upscope $end
+$scope begin genblk4[583] $end
+$upscope $end
+$scope begin genblk4[584] $end
+$upscope $end
+$scope begin genblk4[585] $end
+$upscope $end
+$scope begin genblk4[586] $end
+$upscope $end
+$scope begin genblk4[587] $end
+$upscope $end
+$scope begin genblk4[588] $end
+$upscope $end
+$scope begin genblk4[589] $end
+$upscope $end
+$scope begin genblk4[590] $end
+$upscope $end
+$scope begin genblk4[591] $end
+$upscope $end
+$scope begin genblk4[592] $end
+$upscope $end
+$scope begin genblk4[593] $end
+$upscope $end
+$scope begin genblk4[594] $end
+$upscope $end
+$scope begin genblk4[595] $end
+$upscope $end
+$scope begin genblk4[596] $end
+$upscope $end
+$scope begin genblk4[597] $end
+$upscope $end
+$scope begin genblk4[598] $end
+$upscope $end
+$scope begin genblk4[599] $end
+$upscope $end
+$scope begin genblk4[600] $end
+$upscope $end
+$scope begin genblk4[601] $end
+$upscope $end
+$scope begin genblk4[602] $end
+$upscope $end
+$scope begin genblk4[603] $end
+$upscope $end
+$scope begin genblk4[604] $end
+$upscope $end
+$scope begin genblk4[605] $end
+$upscope $end
+$scope begin genblk4[606] $end
+$upscope $end
+$scope begin genblk4[607] $end
+$upscope $end
+$scope begin genblk4[608] $end
+$upscope $end
+$scope begin genblk4[609] $end
+$upscope $end
+$scope begin genblk4[610] $end
+$upscope $end
+$scope begin genblk4[611] $end
+$upscope $end
+$scope begin genblk4[612] $end
+$upscope $end
+$scope begin genblk4[613] $end
+$upscope $end
+$scope begin genblk4[614] $end
+$upscope $end
+$scope begin genblk4[615] $end
+$upscope $end
+$scope begin genblk4[616] $end
+$upscope $end
+$scope begin genblk4[617] $end
+$upscope $end
+$scope begin genblk4[618] $end
+$upscope $end
+$scope begin genblk4[619] $end
+$upscope $end
+$scope begin genblk4[620] $end
+$upscope $end
+$scope begin genblk4[621] $end
+$upscope $end
+$scope begin genblk4[622] $end
+$upscope $end
+$scope begin genblk4[623] $end
+$upscope $end
+$scope begin genblk4[624] $end
+$upscope $end
+$scope begin genblk4[625] $end
+$upscope $end
+$scope begin genblk4[626] $end
+$upscope $end
+$scope begin genblk4[627] $end
+$upscope $end
+$scope begin genblk4[628] $end
+$upscope $end
+$scope begin genblk4[629] $end
+$upscope $end
+$scope begin genblk4[630] $end
+$upscope $end
+$scope begin genblk4[631] $end
+$upscope $end
+$scope begin genblk4[632] $end
+$upscope $end
+$scope begin genblk4[633] $end
+$upscope $end
+$scope begin genblk4[634] $end
+$upscope $end
+$scope begin genblk4[635] $end
+$upscope $end
+$scope begin genblk4[636] $end
+$upscope $end
+$scope begin genblk4[637] $end
+$upscope $end
+$scope begin genblk4[638] $end
+$upscope $end
+$scope begin genblk4[639] $end
+$upscope $end
+$scope begin genblk4[640] $end
+$upscope $end
+$scope begin genblk4[641] $end
+$upscope $end
+$scope begin genblk4[642] $end
+$upscope $end
+$scope begin genblk4[643] $end
+$upscope $end
+$scope begin genblk4[644] $end
+$upscope $end
+$scope begin genblk4[645] $end
+$upscope $end
+$scope begin genblk4[646] $end
+$upscope $end
+$scope begin genblk4[647] $end
+$upscope $end
+$scope begin genblk4[648] $end
+$upscope $end
+$scope begin genblk4[649] $end
+$upscope $end
+$scope begin genblk4[650] $end
+$upscope $end
+$scope begin genblk4[651] $end
+$upscope $end
+$scope begin genblk4[652] $end
+$upscope $end
+$scope begin genblk4[653] $end
+$upscope $end
+$scope begin genblk4[654] $end
+$upscope $end
+$scope begin genblk4[655] $end
+$upscope $end
+$scope begin genblk4[656] $end
+$upscope $end
+$scope begin genblk4[657] $end
+$upscope $end
+$scope begin genblk4[658] $end
+$upscope $end
+$scope begin genblk4[659] $end
+$upscope $end
+$scope begin genblk4[660] $end
+$upscope $end
+$scope begin genblk4[661] $end
+$upscope $end
+$scope begin genblk4[662] $end
+$upscope $end
+$scope begin genblk4[663] $end
+$upscope $end
+$scope begin genblk4[664] $end
+$upscope $end
+$scope begin genblk4[665] $end
+$upscope $end
+$scope begin genblk4[666] $end
+$upscope $end
+$scope begin genblk4[667] $end
+$upscope $end
+$scope begin genblk4[668] $end
+$upscope $end
+$scope begin genblk4[669] $end
+$upscope $end
+$scope begin genblk4[670] $end
+$upscope $end
+$scope begin genblk4[671] $end
+$upscope $end
+$scope begin genblk4[672] $end
+$upscope $end
+$scope begin genblk4[673] $end
+$upscope $end
+$scope begin genblk4[674] $end
+$upscope $end
+$scope begin genblk4[675] $end
+$upscope $end
+$scope begin genblk4[676] $end
+$upscope $end
+$scope begin genblk4[677] $end
+$upscope $end
+$scope begin genblk4[678] $end
+$upscope $end
+$scope begin genblk4[679] $end
+$upscope $end
+$scope begin genblk4[680] $end
+$upscope $end
+$scope begin genblk4[681] $end
+$upscope $end
+$scope begin genblk4[682] $end
+$upscope $end
+$scope begin genblk4[683] $end
+$upscope $end
+$scope begin genblk4[684] $end
+$upscope $end
+$scope begin genblk4[685] $end
+$upscope $end
+$scope begin genblk4[686] $end
+$upscope $end
+$scope begin genblk4[687] $end
+$upscope $end
+$scope begin genblk4[688] $end
+$upscope $end
+$scope begin genblk4[689] $end
+$upscope $end
+$scope begin genblk4[690] $end
+$upscope $end
+$scope begin genblk4[691] $end
+$upscope $end
+$scope begin genblk4[692] $end
+$upscope $end
+$scope begin genblk4[693] $end
+$upscope $end
+$scope begin genblk4[694] $end
+$upscope $end
+$scope begin genblk4[695] $end
+$upscope $end
+$scope begin genblk4[696] $end
+$upscope $end
+$scope begin genblk4[697] $end
+$upscope $end
+$scope begin genblk4[698] $end
+$upscope $end
+$scope begin genblk4[699] $end
+$upscope $end
+$scope begin genblk4[700] $end
+$upscope $end
+$scope begin genblk4[701] $end
+$upscope $end
+$scope begin genblk4[702] $end
+$upscope $end
+$scope begin genblk4[703] $end
+$upscope $end
+$scope begin genblk4[704] $end
+$upscope $end
+$scope begin genblk4[705] $end
+$upscope $end
+$scope begin genblk4[706] $end
+$upscope $end
+$scope begin genblk4[707] $end
+$upscope $end
+$scope begin genblk4[708] $end
+$upscope $end
+$scope begin genblk4[709] $end
+$upscope $end
+$scope begin genblk4[710] $end
+$upscope $end
+$scope begin genblk4[711] $end
+$upscope $end
+$scope begin genblk4[712] $end
+$upscope $end
+$scope begin genblk4[713] $end
+$upscope $end
+$scope begin genblk4[714] $end
+$upscope $end
+$scope begin genblk4[715] $end
+$upscope $end
+$scope begin genblk4[716] $end
+$upscope $end
+$scope begin genblk4[717] $end
+$upscope $end
+$scope begin genblk4[718] $end
+$upscope $end
+$scope begin genblk4[719] $end
+$upscope $end
+$scope begin genblk4[720] $end
+$upscope $end
+$scope begin genblk4[721] $end
+$upscope $end
+$scope begin genblk4[722] $end
+$upscope $end
+$scope begin genblk4[723] $end
+$upscope $end
+$scope begin genblk4[724] $end
+$upscope $end
+$scope begin genblk4[725] $end
+$upscope $end
+$scope begin genblk4[726] $end
+$upscope $end
+$scope begin genblk4[727] $end
+$upscope $end
+$scope begin genblk4[728] $end
+$upscope $end
+$scope begin genblk4[729] $end
+$upscope $end
+$scope begin genblk4[730] $end
+$upscope $end
+$scope begin genblk4[731] $end
+$upscope $end
+$scope begin genblk4[732] $end
+$upscope $end
+$scope begin genblk4[733] $end
+$upscope $end
+$scope begin genblk4[734] $end
+$upscope $end
+$scope begin genblk4[735] $end
+$upscope $end
+$scope begin genblk4[736] $end
+$upscope $end
+$scope begin genblk4[737] $end
+$upscope $end
+$scope begin genblk4[738] $end
+$upscope $end
+$scope begin genblk4[739] $end
+$upscope $end
+$scope begin genblk4[740] $end
+$upscope $end
+$scope begin genblk4[741] $end
+$upscope $end
+$scope begin genblk4[742] $end
+$upscope $end
+$scope begin genblk4[743] $end
+$upscope $end
+$scope begin genblk4[744] $end
+$upscope $end
+$scope begin genblk4[745] $end
+$upscope $end
+$scope begin genblk4[746] $end
+$upscope $end
+$scope begin genblk4[747] $end
+$upscope $end
+$scope begin genblk4[748] $end
+$upscope $end
+$scope begin genblk4[749] $end
+$upscope $end
+$scope begin genblk4[750] $end
+$upscope $end
+$scope begin genblk4[751] $end
+$upscope $end
+$scope begin genblk4[752] $end
+$upscope $end
+$scope begin genblk4[753] $end
+$upscope $end
+$scope begin genblk4[754] $end
+$upscope $end
+$scope begin genblk4[755] $end
+$upscope $end
+$scope begin genblk4[756] $end
+$upscope $end
+$scope begin genblk4[757] $end
+$upscope $end
+$scope begin genblk4[758] $end
+$upscope $end
+$scope begin genblk4[759] $end
+$upscope $end
+$scope begin genblk4[760] $end
+$upscope $end
+$scope begin genblk4[761] $end
+$upscope $end
+$scope begin genblk4[762] $end
+$upscope $end
+$scope begin genblk4[763] $end
+$upscope $end
+$scope begin genblk4[764] $end
+$upscope $end
+$scope begin genblk4[765] $end
+$upscope $end
+$scope begin genblk4[766] $end
+$upscope $end
+$scope begin genblk4[767] $end
+$upscope $end
+$scope begin genblk4[768] $end
+$upscope $end
+$scope begin genblk4[769] $end
+$upscope $end
+$scope begin genblk4[770] $end
+$upscope $end
+$scope begin genblk4[771] $end
+$upscope $end
+$scope begin genblk4[772] $end
+$upscope $end
+$scope begin genblk4[773] $end
+$upscope $end
+$scope begin genblk4[774] $end
+$upscope $end
+$scope begin genblk4[775] $end
+$upscope $end
+$scope begin genblk4[776] $end
+$upscope $end
+$scope begin genblk4[777] $end
+$upscope $end
+$scope begin genblk4[778] $end
+$upscope $end
+$scope begin genblk4[779] $end
+$upscope $end
+$scope begin genblk4[780] $end
+$upscope $end
+$scope begin genblk4[781] $end
+$upscope $end
+$scope begin genblk4[782] $end
+$upscope $end
+$scope begin genblk4[783] $end
+$upscope $end
+$scope begin genblk4[784] $end
+$upscope $end
+$scope begin genblk4[785] $end
+$upscope $end
+$scope begin genblk4[786] $end
+$upscope $end
+$scope begin genblk4[787] $end
+$upscope $end
+$scope begin genblk4[788] $end
+$upscope $end
+$scope begin genblk4[789] $end
+$upscope $end
+$scope begin genblk4[790] $end
+$upscope $end
+$scope begin genblk4[791] $end
+$upscope $end
+$scope begin genblk4[792] $end
+$upscope $end
+$scope begin genblk4[793] $end
+$upscope $end
+$scope begin genblk4[794] $end
+$upscope $end
+$scope begin genblk4[795] $end
+$upscope $end
+$scope begin genblk4[796] $end
+$upscope $end
+$scope begin genblk4[797] $end
+$upscope $end
+$scope begin genblk4[798] $end
+$upscope $end
+$scope begin genblk4[799] $end
+$upscope $end
+$scope begin genblk4[800] $end
+$upscope $end
+$scope begin genblk4[801] $end
+$upscope $end
+$scope begin genblk4[802] $end
+$upscope $end
+$scope begin genblk4[803] $end
+$upscope $end
+$scope begin genblk4[804] $end
+$upscope $end
+$scope begin genblk4[805] $end
+$upscope $end
+$scope begin genblk4[806] $end
+$upscope $end
+$scope begin genblk4[807] $end
+$upscope $end
+$scope begin genblk4[808] $end
+$upscope $end
+$scope begin genblk4[809] $end
+$upscope $end
+$scope begin genblk4[810] $end
+$upscope $end
+$scope begin genblk4[811] $end
+$upscope $end
+$scope begin genblk4[812] $end
+$upscope $end
+$scope begin genblk4[813] $end
+$upscope $end
+$scope begin genblk4[814] $end
+$upscope $end
+$scope begin genblk4[815] $end
+$upscope $end
+$scope begin genblk4[816] $end
+$upscope $end
+$scope begin genblk4[817] $end
+$upscope $end
+$scope begin genblk4[818] $end
+$upscope $end
+$scope begin genblk4[819] $end
+$upscope $end
+$scope begin genblk4[820] $end
+$upscope $end
+$scope begin genblk4[821] $end
+$upscope $end
+$scope begin genblk4[822] $end
+$upscope $end
+$scope begin genblk4[823] $end
+$upscope $end
+$scope begin genblk4[824] $end
+$upscope $end
+$scope begin genblk4[825] $end
+$upscope $end
+$scope begin genblk4[826] $end
+$upscope $end
+$scope begin genblk4[827] $end
+$upscope $end
+$scope begin genblk4[828] $end
+$upscope $end
+$scope begin genblk4[829] $end
+$upscope $end
+$scope begin genblk4[830] $end
+$upscope $end
+$scope begin genblk4[831] $end
+$upscope $end
+$scope begin genblk4[832] $end
+$upscope $end
+$scope begin genblk4[833] $end
+$upscope $end
+$scope begin genblk4[834] $end
+$upscope $end
+$scope begin genblk4[835] $end
+$upscope $end
+$scope begin genblk4[836] $end
+$upscope $end
+$scope begin genblk4[837] $end
+$upscope $end
+$scope begin genblk4[838] $end
+$upscope $end
+$scope begin genblk4[839] $end
+$upscope $end
+$scope begin genblk4[840] $end
+$upscope $end
+$scope begin genblk4[841] $end
+$upscope $end
+$scope begin genblk4[842] $end
+$upscope $end
+$scope begin genblk4[843] $end
+$upscope $end
+$scope begin genblk4[844] $end
+$upscope $end
+$scope begin genblk4[845] $end
+$upscope $end
+$scope begin genblk4[846] $end
+$upscope $end
+$scope begin genblk4[847] $end
+$upscope $end
+$scope begin genblk4[848] $end
+$upscope $end
+$scope begin genblk4[849] $end
+$upscope $end
+$scope begin genblk4[850] $end
+$upscope $end
+$scope begin genblk4[851] $end
+$upscope $end
+$scope begin genblk4[852] $end
+$upscope $end
+$scope begin genblk4[853] $end
+$upscope $end
+$scope begin genblk4[854] $end
+$upscope $end
+$scope begin genblk4[855] $end
+$upscope $end
+$scope begin genblk4[856] $end
+$upscope $end
+$scope begin genblk4[857] $end
+$upscope $end
+$scope begin genblk4[858] $end
+$upscope $end
+$scope begin genblk4[859] $end
+$upscope $end
+$scope begin genblk4[860] $end
+$upscope $end
+$scope begin genblk4[861] $end
+$upscope $end
+$scope begin genblk4[862] $end
+$upscope $end
+$scope begin genblk4[863] $end
+$upscope $end
+$scope begin genblk4[864] $end
+$upscope $end
+$scope begin genblk4[865] $end
+$upscope $end
+$scope begin genblk4[866] $end
+$upscope $end
+$scope begin genblk4[867] $end
+$upscope $end
+$scope begin genblk4[868] $end
+$upscope $end
+$scope begin genblk4[869] $end
+$upscope $end
+$scope begin genblk4[870] $end
+$upscope $end
+$scope begin genblk4[871] $end
+$upscope $end
+$scope begin genblk4[872] $end
+$upscope $end
+$scope begin genblk4[873] $end
+$upscope $end
+$scope begin genblk4[874] $end
+$upscope $end
+$scope begin genblk4[875] $end
+$upscope $end
+$scope begin genblk4[876] $end
+$upscope $end
+$scope begin genblk4[877] $end
+$upscope $end
+$scope begin genblk4[878] $end
+$upscope $end
+$scope begin genblk4[879] $end
+$upscope $end
+$scope begin genblk4[880] $end
+$upscope $end
+$scope begin genblk4[881] $end
+$upscope $end
+$scope begin genblk4[882] $end
+$upscope $end
+$scope begin genblk4[883] $end
+$upscope $end
+$scope begin genblk4[884] $end
+$upscope $end
+$scope begin genblk4[885] $end
+$upscope $end
+$scope begin genblk4[886] $end
+$upscope $end
+$scope begin genblk4[887] $end
+$upscope $end
+$scope begin genblk4[888] $end
+$upscope $end
+$scope begin genblk4[889] $end
+$upscope $end
+$scope begin genblk4[890] $end
+$upscope $end
+$scope begin genblk4[891] $end
+$upscope $end
+$scope begin genblk4[892] $end
+$upscope $end
+$scope begin genblk4[893] $end
+$upscope $end
+$scope begin genblk4[894] $end
+$upscope $end
+$scope begin genblk4[895] $end
+$upscope $end
+$scope begin genblk4[896] $end
+$upscope $end
+$scope begin genblk4[897] $end
+$upscope $end
+$scope begin genblk4[898] $end
+$upscope $end
+$scope begin genblk4[899] $end
+$upscope $end
+$scope begin genblk4[900] $end
+$upscope $end
+$scope begin genblk4[901] $end
+$upscope $end
+$scope begin genblk4[902] $end
+$upscope $end
+$scope begin genblk4[903] $end
+$upscope $end
+$scope begin genblk4[904] $end
+$upscope $end
+$scope begin genblk4[905] $end
+$upscope $end
+$scope begin genblk4[906] $end
+$upscope $end
+$scope begin genblk4[907] $end
+$upscope $end
+$scope begin genblk4[908] $end
+$upscope $end
+$scope begin genblk4[909] $end
+$upscope $end
+$scope begin genblk4[910] $end
+$upscope $end
+$scope begin genblk4[911] $end
+$upscope $end
+$scope begin genblk4[912] $end
+$upscope $end
+$scope begin genblk4[913] $end
+$upscope $end
+$scope begin genblk4[914] $end
+$upscope $end
+$scope begin genblk4[915] $end
+$upscope $end
+$scope begin genblk4[916] $end
+$upscope $end
+$scope begin genblk4[917] $end
+$upscope $end
+$scope begin genblk4[918] $end
+$upscope $end
+$scope begin genblk4[919] $end
+$upscope $end
+$scope begin genblk4[920] $end
+$upscope $end
+$scope begin genblk4[921] $end
+$upscope $end
+$scope begin genblk4[922] $end
+$upscope $end
+$scope begin genblk4[923] $end
+$upscope $end
+$scope begin genblk4[924] $end
+$upscope $end
+$scope begin genblk4[925] $end
+$upscope $end
+$scope begin genblk4[926] $end
+$upscope $end
+$scope begin genblk4[927] $end
+$upscope $end
+$scope begin genblk4[928] $end
+$upscope $end
+$scope begin genblk4[929] $end
+$upscope $end
+$scope begin genblk4[930] $end
+$upscope $end
+$scope begin genblk4[931] $end
+$upscope $end
+$scope begin genblk4[932] $end
+$upscope $end
+$scope begin genblk4[933] $end
+$upscope $end
+$scope begin genblk4[934] $end
+$upscope $end
+$scope begin genblk4[935] $end
+$upscope $end
+$scope begin genblk4[936] $end
+$upscope $end
+$scope begin genblk4[937] $end
+$upscope $end
+$scope begin genblk4[938] $end
+$upscope $end
+$scope begin genblk4[939] $end
+$upscope $end
+$scope begin genblk4[940] $end
+$upscope $end
+$scope begin genblk4[941] $end
+$upscope $end
+$scope begin genblk4[942] $end
+$upscope $end
+$scope begin genblk4[943] $end
+$upscope $end
+$scope begin genblk4[944] $end
+$upscope $end
+$scope begin genblk4[945] $end
+$upscope $end
+$scope begin genblk4[946] $end
+$upscope $end
+$scope begin genblk4[947] $end
+$upscope $end
+$scope begin genblk4[948] $end
+$upscope $end
+$scope begin genblk4[949] $end
+$upscope $end
+$scope begin genblk4[950] $end
+$upscope $end
+$scope begin genblk4[951] $end
+$upscope $end
+$scope begin genblk4[952] $end
+$upscope $end
+$scope begin genblk4[953] $end
+$upscope $end
+$scope begin genblk4[954] $end
+$upscope $end
+$scope begin genblk4[955] $end
+$upscope $end
+$scope begin genblk4[956] $end
+$upscope $end
+$scope begin genblk4[957] $end
+$upscope $end
+$scope begin genblk4[958] $end
+$upscope $end
+$scope begin genblk4[959] $end
+$upscope $end
+$scope begin genblk4[960] $end
+$upscope $end
+$scope begin genblk4[961] $end
+$upscope $end
+$scope begin genblk4[962] $end
+$upscope $end
+$scope begin genblk4[963] $end
+$upscope $end
+$scope begin genblk4[964] $end
+$upscope $end
+$scope begin genblk4[965] $end
+$upscope $end
+$scope begin genblk4[966] $end
+$upscope $end
+$scope begin genblk4[967] $end
+$upscope $end
+$scope begin genblk4[968] $end
+$upscope $end
+$scope begin genblk4[969] $end
+$upscope $end
+$scope begin genblk4[970] $end
+$upscope $end
+$scope begin genblk4[971] $end
+$upscope $end
+$scope begin genblk4[972] $end
+$upscope $end
+$scope begin genblk4[973] $end
+$upscope $end
+$scope begin genblk4[974] $end
+$upscope $end
+$scope begin genblk4[975] $end
+$upscope $end
+$scope begin genblk4[976] $end
+$upscope $end
+$scope begin genblk4[977] $end
+$upscope $end
+$scope begin genblk4[978] $end
+$upscope $end
+$scope begin genblk4[979] $end
+$upscope $end
+$scope begin genblk4[980] $end
+$upscope $end
+$scope begin genblk4[981] $end
+$upscope $end
+$scope begin genblk4[982] $end
+$upscope $end
+$scope begin genblk4[983] $end
+$upscope $end
+$scope begin genblk4[984] $end
+$upscope $end
+$scope begin genblk4[985] $end
+$upscope $end
+$scope begin genblk4[986] $end
+$upscope $end
+$scope begin genblk4[987] $end
+$upscope $end
+$scope begin genblk4[988] $end
+$upscope $end
+$scope begin genblk4[989] $end
+$upscope $end
+$scope begin genblk4[990] $end
+$upscope $end
+$scope begin genblk4[991] $end
+$upscope $end
+$scope begin genblk4[992] $end
+$upscope $end
+$scope begin genblk4[993] $end
+$upscope $end
+$scope begin genblk4[994] $end
+$upscope $end
+$scope begin genblk4[995] $end
+$upscope $end
+$scope begin genblk4[996] $end
+$upscope $end
+$scope begin genblk4[997] $end
+$upscope $end
+$scope begin genblk4[998] $end
+$upscope $end
+$scope begin genblk4[999] $end
+$upscope $end
+$scope begin genblk4[1000] $end
+$upscope $end
+$scope begin genblk4[1001] $end
+$upscope $end
+$scope begin genblk4[1002] $end
+$upscope $end
+$scope begin genblk4[1003] $end
+$upscope $end
+$scope begin genblk4[1004] $end
+$upscope $end
+$scope begin genblk4[1005] $end
+$upscope $end
+$scope begin genblk4[1006] $end
+$upscope $end
+$scope begin genblk4[1007] $end
+$upscope $end
+$scope begin genblk4[1008] $end
+$upscope $end
+$scope begin genblk4[1009] $end
+$upscope $end
+$scope begin genblk4[1010] $end
+$upscope $end
+$scope begin genblk4[1011] $end
+$upscope $end
+$scope begin genblk4[1012] $end
+$upscope $end
+$scope begin genblk4[1013] $end
+$upscope $end
+$scope begin genblk4[1014] $end
+$upscope $end
+$scope begin genblk4[1015] $end
+$upscope $end
+$scope begin genblk4[1016] $end
+$upscope $end
+$scope begin genblk4[1017] $end
+$upscope $end
+$scope begin genblk4[1018] $end
+$upscope $end
+$scope begin genblk4[1019] $end
+$upscope $end
+$scope begin genblk4[1020] $end
+$upscope $end
+$scope begin genblk4[1021] $end
+$upscope $end
+$scope begin genblk4[1022] $end
+$upscope $end
+$scope begin genblk4[1023] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+b10000010100000001000000010000000000010000010101010000010100010000000001000001010100010001010100000000010101010101000000000100000000000100000101000000000001010000 )
+bz (
+bz '
+bx &
+bz %
+b100110001000100000100111100110100001001110101110000111111000010000010011000001100 $
+1#
+bz "
+bz !
+$end
+#10000000
+b100000000010000010000000101000000010001010101010000000101000000000100010000000101000101010000010101000000000100010100010100010100000001010101010001000001000001 )
+b10000100100011000101111100011000010100011011100111000010110110110001111101001001 $
+#20000000
+b10001010100010000000100000000010001010000000100000101010000000101000000000000010101000000010001010101000001010101000001000001000001010101010100010001010000010001 )
+b101110100010000101100010011100011000000111000101111001111001001001111110101100101 $
+#30000000
+b101010100010001000000000000000001010100000000000100000100010101010000010000000001010000010001010000010100000101000000010101010101010100010001000101000001000100 )
+b11110101000000001110000010010111100100001100101100110011000111111110101011001010 $
+#40000000
+b1000000010100010001000100010100000001010000010000000001000101000001000000010001000100000001010101000001010100000101000000000001000000000001010101000101000000 )
+b1000110101010110001100100001011001000101010001111001110011000001000001111011000 $
+#50000000
+b100010000010000010001010101010100000100010101000101010101000000010000000101010000000001010000000101010100010001010001010100000001010101010100000101000000010000 )
+b10100100101111110010111011111000100011100001100011110101101110001111110011000100 $
+#60000000
+b100010101000100010001000000010001000001000101010001000000000001000101000001000001000101010000010001000100000001000100000000010100000001010000010001010100010000 )
+b10111010101000101001011101000001011001001011100101010001010000110001100101110100 $
+#70000000
+b10001000101000101000101000001000100010000010001010000010000000101010001000001010000000001000000010101000101010000000000000101000101000000000101010101010101010101 )
+b101011011011001010100101100100011101001100001000111011100000011011000011111111111 $
+#80000000
+b11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 )
+0#
+b11 (
+#90000000
+b10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010 )
+b10 (
+#100000000
+b1010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 )
+b1 (
+#110000000
+b10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010 )
+b10 (
+#130000000
+b0 )
+b0 (
+#150000000
+b1010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 )
+b1 (
+#160000001

@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Wed Sep 21 09:41:58 2022
+[*]
+[dumpfile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/shift_add_mult.vcd"
+[dumpfile_mtime] "Wed Sep 21 09:34:06 2022"
+[dumpfile_size] 64169
+[savefile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/shift_add_mult.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 380 77
+*-32.000000 4000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 143
+@25
+shift_add_mult.beta[3:0]
+@8024
+shift_add_mult.potential[7:0]
+@20000
+-
+-
+-
+@c08024
+shift_add_mult.mult_ans[7:0]
+@28
+(0)shift_add_mult.mult_ans[7:0]
+(1)shift_add_mult.mult_ans[7:0]
+(2)shift_add_mult.mult_ans[7:0]
+(3)shift_add_mult.mult_ans[7:0]
+(4)shift_add_mult.mult_ans[7:0]
+(5)shift_add_mult.mult_ans[7:0]
+(6)shift_add_mult.mult_ans[7:0]
+(7)shift_add_mult.mult_ans[7:0]
+@1409204
+-group_end
+@20000
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0

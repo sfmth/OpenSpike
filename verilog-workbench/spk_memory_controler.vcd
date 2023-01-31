@@ -1,0 +1,66 @@
+$date
+	Sat Oct  8 23:07:56 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module spk_memory_controler $end
+$var wire 16 ! ac_spk_read_sram [15:0] $end
+$var wire 9 " ac_spk_read_sram_addr [8:0] $end
+$var wire 9 # cntrl_ac_spk_read_addr [8:0] $end
+$var wire 3 $ cntrl_ac_spk_read_switch [2:0] $end
+$var wire 9 % cntrl_in_spk_read_addr [8:0] $end
+$var wire 9 & cntrl_spk_write_addr [8:0] $end
+$var wire 1 ' cntrl_spk_write_we $end
+$var wire 9 ( cntrl_spkblty_read_addr [8:0] $end
+$var wire 9 ) cntrl_spkblty_write_addr [8:0] $end
+$var wire 1 * cntrl_spkblty_write_we $end
+$var wire 128 + in_spk_read_out [127:0] $end
+$var wire 128 , in_spk_read_sram [127:0] $end
+$var wire 9 - in_spk_read_sram_addr [8:0] $end
+$var wire 16 . spk_write_in [15:0] $end
+$var wire 16 / spk_write_sram [15:0] $end
+$var wire 9 0 spk_write_sram_addr [8:0] $end
+$var wire 1 1 spk_write_sram_we $end
+$var wire 16 2 spkblty_read_out [15:0] $end
+$var wire 16 3 spkblty_read_sram [15:0] $end
+$var wire 9 4 spkblty_read_sram_addr [8:0] $end
+$var wire 16 5 spkblty_write_in [15:0] $end
+$var wire 16 6 spkblty_write_sram [15:0] $end
+$var wire 9 7 spkblty_write_sram_addr [8:0] $end
+$var wire 1 8 spkblty_write_sram_we $end
+$var reg 2 9 ac_spk_read_out [1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 9
+z8
+bz 7
+bz 6
+bz 5
+bz 4
+bz 3
+bz 2
+z1
+bz 0
+bz /
+bz .
+bz -
+bz ,
+bz +
+z*
+bz )
+bz (
+z'
+bz &
+bz %
+bz $
+bz #
+bz "
+bz !
+$end
+#1000

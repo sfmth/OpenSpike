@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Tue Oct 25 11:35:22 2022
+[*]
+[dumpfile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/control_unit_256.vcd"
+[dumpfile_mtime] "Tue Oct 25 11:22:12 2022"
+[dumpfile_size] 856168
+[savefile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/control_unit_256.gtkw"
+[timestart] 20100000
+[size] 1920 1029
+[pos] -1 -1
+*-22.000000 19280000 21200000 21320000 31600000 41880000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 278
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@28
+control_unit_256.clk
+control_unit_256.reset
+@22
+control_unit_256.time_step[7:0]
+control_unit_256.state[3:0]
+@24
+control_unit_256.cnt_512[9:0]
+@200
+-
+-
+-Accumulator reads:
+@24
+control_unit_256.w_read_sram_addr[10:0]
+control_unit_256.cntrl_ac_spk_read_addr[8:0]
+@200
+-
+-Scmitt trigger I/O:
+@24
+control_unit_256.cntrl_spk_write_addr[8:0]
+control_unit_256.cntrl_spkblty_write_addr[8:0]
+control_unit_256.cntrl_spkblty_read_addr[8:0]
+@200
+-
+-Input spike read:
+@24
+control_unit_256.cntrl_in_spk_read_addr[8:0]
+@200
+-
+-Load decayed potential:
+@24
+control_unit_256.cntrl_beta_read_addr[8:0]
+control_unit_256.cntrl_potential_read_addr[8:0]
+@200
+-
+-Final potential save:
+@24
+control_unit_256.cntrl_potential_write_addr[8:0]
+[pattern_trace] 1
+[pattern_trace] 0

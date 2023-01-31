@@ -1,0 +1,55 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: spkblty_read_sram[12] (input port clocked by clk)
+Endpoint: u_write_sram[101] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          8.00    8.00 ^ input external delay
+                  0.03    0.03    8.03 ^ spkblty_read_sram[12] (in)
+     1    0.00                           spkblty_read_sram[12] (net)
+                  0.04    0.00    8.03 ^ _164178_/A (sky130_fd_sc_hd__inv_2)
+                  0.02    0.03    8.05 v _164178_/Y (sky130_fd_sc_hd__inv_2)
+     1    0.00                           _116024_ (net)
+                  0.02    0.01    8.06 v _164179_/C1 (sky130_fd_sc_hd__a221oi_2)
+                  0.31    0.27    8.33 ^ _164179_/Y (sky130_fd_sc_hd__a221oi_2)
+     3    0.01                           _116025_ (net)
+                  0.31    0.00    8.34 ^ _165455_/B (sky130_fd_sc_hd__and3_2)
+                  0.06    0.26    8.60 ^ _165455_/X (sky130_fd_sc_hd__and3_2)
+     3    0.01                           _117301_ (net)
+                  0.06    0.00    8.60 ^ _165456_/A (sky130_fd_sc_hd__buf_1)
+                  0.59    0.46    9.06 ^ _165456_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           spk_write_sram[12] (net)
+                  0.59    0.00    9.07 ^ _206845_/A_N (sky130_fd_sc_hd__and2b_2)
+                  0.04    0.29    9.36 v _206845_/X (sky130_fd_sc_hd__and2b_2)
+     1    0.00                           _033460_ (net)
+                  0.04    0.00    9.36 v _206846_/A (sky130_fd_sc_hd__buf_1)
+                  0.23    0.21    9.57 v _206846_/X (sky130_fd_sc_hd__buf_1)
+     1    0.03                           u_write_sram[101] (net)
+                  0.23    0.00    9.58 v u_write_sram[101] (out)
+                                  9.58   data arrival time
+
+                  0.15   40.00   40.00   clock clk (rise edge)
+                          0.00   40.00   clock network delay (ideal)
+                         -0.25   39.75   clock uncertainty
+                          0.00   39.75   clock reconvergence pessimism
+                         -8.00   31.75   output external delay
+                                 31.75   data required time
+-----------------------------------------------------------------------------
+                                 31.75   data required time
+                                 -9.58   data arrival time
+-----------------------------------------------------------------------------
+                                 22.17   slack (MET)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.

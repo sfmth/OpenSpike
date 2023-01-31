@@ -1,0 +1,46 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Wed Sep 21 15:30:54 2022
+[*]
+[dumpfile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/sram.vcd"
+[dumpfile_mtime] "Wed Sep 21 15:29:01 2022"
+[dumpfile_size] 864679
+[savefile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/sram.gtkw"
+[timestart] 0
+[size] 1920 1029
+[pos] -1 -1
+*-24.000000 100000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 269
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@28
+sram.clk
+@29
+sram.clk2
+@200
+-
+@28
+sram.we
+@22
+sram.write_addr[11:0]
+sram.write_data[31:0]
+@200
+-
+@22
+sram.read_addr[11:0]
+@200
+-
+@22
+sram.read_data[31:0]
+@200
+-
+@22
+sram.read_addr_reg[11:0]
+@28
+sram.we_reg
+@22
+sram.write_addr_reg[11:0]
+sram.write_data_reg[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

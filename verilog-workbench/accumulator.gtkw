@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Thu Oct  6 21:00:32 2022
+[*]
+[dumpfile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/accumulator.vcd"
+[dumpfile_mtime] "Thu Oct  6 20:59:14 2022"
+[dumpfile_size] 3498
+[savefile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/accumulator.gtkw"
+[timestart] 0
+[size] 1920 1029
+[pos] 0 27
+*-22.000000 5161200000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 285
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@420
+accumulator.i
+@22
+accumulator.spk_in[1023:0]
+accumulator.w_in[1023:0]
+accumulator.synapse[1023:0]
+@200
+-
+@25
+accumulator.u_out[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

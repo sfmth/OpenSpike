@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Mon Oct 17 18:06:15 2022
+[*]
+[dumpfile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/control_unit_256.vcd"
+[dumpfile_mtime] "Mon Oct 17 16:23:36 2022"
+[dumpfile_size] 838023
+[savefile] "/home/farhad/github/iscas-snn-accelerator/verilog-workbench/control_unit.gtkw"
+[timestart] 15810000
+[size] 1920 1029
+[pos] -1 -1
+*-22.000000 28840000 23720000 26360000 36640000 46920000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 317
+[sst_expanded] 1
+[sst_vpaned_height] 596
+@28
+control_unit_256.clk
+control_unit_256.reset
+@22
+control_unit_256.time_step[7:0]
+control_unit_256.state[3:0]
+control_unit_256.cnt_512[9:0]
+@200
+-
+-
+-Control Signals:
+@24
+control_unit_256.w_read_sram_addr[10:0]
+@204
+-
+@24
+control_unit_256.cntrl_ac_spk_read_addr[8:0]
+control_unit_256.cntrl_spk_write_addr[8:0]
+@204
+-
+@24
+control_unit_256.cntrl_spkblty_read_addr[8:0]
+control_unit_256.cntrl_spkblty_write_addr[8:0]
+@204
+-
+@24
+control_unit_256.cntrl_potential_read_addr[8:0]
+control_unit_256.cntrl_potential_write_addr[8:0]
+@204
+-
+@24
+control_unit_256.cntrl_beta_read_addr[8:0]
+@204
+-
+@24
+control_unit_256.cntrl_in_spk_read_addr[8:0]
+@201
+-
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0
