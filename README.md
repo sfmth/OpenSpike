@@ -26,11 +26,10 @@ If you find OpenSpike useful in your work, please cite the following source:
 ## OpenSpike Layout
 Design area 3mm × 3mm (9 mm<sup>^2</sup>).
 <p align="left" float="center">
-  <img src="docs/chip.jpg" width="300"/>
+  <img src="docs/chip.jpg" width="250"/>
 </p>
-
 <p align="right" float="center">
-  <img src="docs/sram-2k.jpg" width="300"/>
+  <img src="docs/sram-2k.jpg" width="250"/>
 </p>
 
 2KB 1RW-1R 32x512 SRAM Layout
