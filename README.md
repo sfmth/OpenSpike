@@ -28,6 +28,8 @@ Design area 3mm × 3mm (9 mm<sup>2</sup>).
 <p align="center" float="center">
   <img src="docs/chip.jpg"height="200" />
   <img src="docs/sram-2k.jpg"  height="200" /> 
-  <figcaption align = "right"><b>2KB 1RW-1R 32x512 SRAM Layout</b></figcaption>
+  <p align = "right"> 
+  2KB 1RW-1R 32x512 SRAM Layout
+  </p>
 </p>
 
