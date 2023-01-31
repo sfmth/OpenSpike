@@ -33,6 +33,3 @@ Design area 3mm X 3mm (9 mm^2).
 <p align="center" float="center">
   <img src="docs/sram-2k.jpg" />
 </p>
-
-
-
