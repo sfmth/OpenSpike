@@ -20,7 +20,7 @@ If you find OpenSpike useful in your work, please cite the following source:
 
 ## Timings
 <p align="center" float="center">
-  <img src="docs/control-unit.png.png" width="300"/>
+  <img src="docs/control-unit.png" width="300"/>
 </p>
 
 ## OpenSpike Core's Layout
