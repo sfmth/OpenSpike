@@ -11,7 +11,7 @@ If you find OpenSpike useful in your work, please cite the following source:
 
 ```
 @software{modaresi2023openspike,
-  title        = {OpenSpike: please fill}
+  title        = {OpenSpike: An OpenRAM SNN Accelerator}
   author       = {Modaresi, Farhad and Guthaus, Matthew and Eshraghian, Jason K},
   journal      = {2023 IEEE International Symposium on Circuits and Systems},
   year         = {2023}
@@ -20,16 +20,16 @@ If you find OpenSpike useful in your work, please cite the following source:
 
 ## Timings
 <p align="center" float="center">
-  <img src="docs/control-unit.png.jpg" width="500"/>
+  <img src="docs/control-unit.png.png" width="300"/>
 </p>
 
 ## OpenSpike Core's Layout
 Design area 3mm X 3mm (9 mm^2).
 <p align="center" float="center">
-  <img src="docs/chip.jpg" />
+  <img src="docs/chip.jpg" width="300"/>
 </p>
 
 ## 2KB 1RW-1R 32x512 SRAM Layout
 <p align="center" float="center">
-  <img src="docs/sram-2k.jpg" />
+  <img src="docs/sram-2k.jpg" width="300"/>
 </p>
