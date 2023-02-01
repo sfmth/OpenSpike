@@ -18,7 +18,7 @@ If you find OpenSpike useful in your work, please cite the following source:
 }
 ```
 
-## Timings
+## Timing
 <p align="center" float="center">
   <img src="docs/control-unit.png" width="600"/>
 </p>
