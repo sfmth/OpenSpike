@@ -3,7 +3,7 @@ OpenSpike a spiking neural network (SNN) accelerator made using fully open-sourc
 
 
 <p align="center" float="center">
-  <img src="docs/system-small.jpg" width="500"/>
+  <img src="docs/intro.png"/>
 </p>
 
 ## Citation
