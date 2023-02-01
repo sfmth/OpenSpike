@@ -18,15 +18,10 @@ If you find OpenSpike useful in your work, please cite the following source:
 }
 ```
 
-## Timing
+## Timings
 <p align="center" float="center">
   <img src="docs/control-unit.png" width="600"/>
 </p>
 
-## OpenSpike Layout
-Design area 3mm × 3mm (9 mm<sup>2</sup>) (Left). 2KB 1RW-1R 32x512 SRAM Layout (Right).
-<p align="center" float="center">
-  <img src="docs/chip.jpg"height="200" />
-  <img src="docs/sram-2k.jpg"  height="200" /> 
-</p>
+
 
