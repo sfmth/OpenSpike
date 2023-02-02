@@ -10,11 +10,12 @@ OpenSpike a spiking neural network (SNN) accelerator made using fully open-sourc
 If you find OpenSpike useful in your work, please cite the following source:
 
 ```
-@journal{modaresi2023openspike,
+@inproceedings{modaresi2023openspike,
   title        = {OpenSpike: An OpenRAM SNN Accelerator}
   author       = {Modaresi, Farhad and Guthaus, Matthew and Eshraghian, Jason K},
-  journal      = {2023 IEEE International Symposium on Circuits and Systems},
-  year         = {2023}
+  booktitle    = {2023 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  year         = {2023},
+  organization = {IEEE}
 }
 ```
 
