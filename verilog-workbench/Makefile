@@ -115,7 +115,7 @@ show_synth_full_human:
 
 	# Show waveforms after simulation with gtkwave
 gtkwave: module
-	@echo -e '\n' $(Yellow)$(bold) '==>' $(Green)$(bold)Runing waveform viewer$(Color_Off) '\n'
+	@echo -e '\n' $(Yellow)$(bold) '==>' $(Green)$(bold)Running waveform viewer$(Color_Off) '\n'
 	gtkwave $(PREFIX).vcd $(PREFIX).gtkw
 gtkwave_good:
 	gtkwave $(PREFIX)_good.vcd $(PREFIX).gtkw
