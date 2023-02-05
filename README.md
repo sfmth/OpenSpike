@@ -7,15 +7,17 @@ OpenSpike a spiking neural network (SNN) accelerator made using fully open-sourc
 </p>
 
 ## Citation
+OpenSpike has been accepted for presentation at the 2023 IEEE Symposium on Circuits and Systems in Monterey, CA, USA. 
+The preprint is available [here](https://arxiv.org/abs/2302.01015).
+
 If you find OpenSpike useful in your work, please cite the following source:
 
 ```
 @inproceedings{modaresi2023openspike,
   title        = {OpenSpike: An OpenRAM SNN Accelerator}
   author       = {Modaresi, Farhad and Guthaus, Matthew and Eshraghian, Jason K},
-  booktitle    = {2023 IEEE International Symposium on Circuits and Systems (ISCAS)},
-  year         = {2023},
-  organization = {IEEE}
+  journal      = {arXiv preprint arXiv:2302.01015},
+  year         = {2023}
 }
 ```
 
